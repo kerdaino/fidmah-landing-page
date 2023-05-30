@@ -243,7 +243,7 @@ footer {
 }
 
 footer p {
-  margin: 0;
+  margin: 2px;
 }
 
 footer .content-wrapper {
@@ -509,14 +509,10 @@ aside {
   }
 
   footer p {
-    line-height: 18px;
+    line-height: 25px;
+    word-spacing: normal;
   }
 
-  .faq h4,
-  .faq p {
-    font-size: 0.875em;
-    line-height: 15.75px;
-  }
 
   .content-wrapper {
     max-width: 640px;
@@ -670,6 +666,12 @@ aside {
     max-width: 960px;
     /* margin: 100px 0; */
   }
+
+  footer p {
+    line-height: 30px;
+    word-spacing: normal;
+  }
+
 
   header img {
     width: 30%;
